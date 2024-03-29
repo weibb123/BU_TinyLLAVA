@@ -426,8 +426,8 @@ def build_demo():
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", type=str, default=None)
-    parser.add_argument("--port", type=int, default=None)
-    parser.add_argument("--share", default=None)
+    parser.add_argument("--port", type=int, default=10000)
+    parser.add_argument("--share", default=True)
     parser.add_argument("--model-path", type=str, default=DEFAULT_MODEL_PATH)
     parser.add_argument("--model-name", type=str, default=DEFAULT_MODEL_NAME)
     parser.add_argument("--load-8bit", action="store_true")
@@ -447,7 +447,7 @@ if __name__ == "__main__":
     model_name = args.model_name
     tokenizer, model, image_processor, context_len = load_pretrained_model(
         model_path=args.model_path,
-        model_base=None,
+        model_base= "bczhou/TinyLLaVA-3.1B",
         model_name=args.model_name,
         load_4bit=args.load_4bit,
         load_8bit=args.load_8bit
