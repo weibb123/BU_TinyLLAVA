@@ -4,33 +4,9 @@
 
 [![hf_space](https://img.shields.io/badge/🤗-%20Open%20In%20HF-blue.svg)](https://huggingface.co/bczhou/TinyLLaVA-3.1B) [![arXiv](https://img.shields.io/badge/Arxiv-2402.14289-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2402.14289) [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/PKU-YuanGroup/MoE-LLaVA/blob/main/LICENSE) 
 
+![image](https://github.com/weibb123/BU_TinyLLava/assets/84426364/587b7a11-1e20-4379-a122-b2f7cf249fe6)
 
-## &#x1F389; News
-* **[2024.03.10]**  base recipe out!
-* **[2024.03.10]**  Finetune scripts out!
-* **[2024.02.25]**  Update evaluation scripts and docs!
-* **[2024.02.25]**  Data descriptions out. Release TinyLLaVA-1.5B and TinyLLaVA-2.0B!
-* **[2024.02.24]**  Example code on inference and model loading added!
-* **[2024.02.23]**  Evaluation code and scripts released!
-* **[2024.02.21]**  Creating the [TinyLLaVABench](https://github.com/DLCV-BUAA/TinyLLavaBench) repository on GitHub!
-* **[2024.02.21]**  Our paper: [TinyLLaVA: A Framework of Small-scale Large Multimodal Models](https://arxiv.org/abs/2402.14289) is out!
-* **[2024.01.11]**  Our fist model [TinyLLaVA-1.4B](https://huggingface.co/bczhou/tiny-llava-v1-hf) is out!
 
-## &#x231B; TODO
-- [ ] Add support for Ollama and llama.cpp.
-- [x] Developers' guide / How to build demo locally.
-- [x] Training and custom finetuning docs.
-- [x] Model Zoo descriptions.
-- [x] Examples and inference.
-- [x] Release code for training.
-- [x] Add descriptions for evaluation.
-- [x] Add descriptions for data preparation.
-- [x] Release TinyLLaVA-1.5B and TinyLLaVA-2.0B.
-- [x] Release TinyLLaVA-3.1B.
-- [x] Release the evaluation code and weights today(2024.2.23).
-### &#x1F525; High performance, but with fewer parameters
-
-- Our best model, TinyLLaVA-3.1B, achieves better overall performance against existing 7B models such as LLaVA-1.5 and Qwen-VL.
 
 ## Contents
 
