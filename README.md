@@ -2,7 +2,6 @@
 
 <h5 align="center">
 
-[![hf_space](https://img.shields.io/badge/🤗-%20Open%20In%20HF-blue.svg)](https://huggingface.co/bczhou/TinyLLaVA-3.1B) [![arXiv](https://img.shields.io/badge/Arxiv-2402.14289-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2402.14289) [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/PKU-YuanGroup/MoE-LLaVA/blob/main/LICENSE) 
 
 ![image](https://github.com/weibb123/BU_TinyLLava/assets/84426364/587b7a11-1e20-4379-a122-b2f7cf249fe6)
 
