@@ -21,14 +21,7 @@ make use of vision transformer to classify images to recognize BU image building
 ## Contents
 
 - [Install](#x1f527-requirements-and-installation)
-- [Model Zoo](#x1f433-model-zoo)
-- [Demo](#Demo)
-- [Quick Start](#x1f527-quick-start)
-- [Run Inference](#x1f527-run-inference)
-- [Evaluation](#evaluation)
-- [Data](#data-preparation)
-- [Train](#train)
-- [Custom Finetune](#custom-finetune)
+
 
 
 ## &#x1F527; Requirements and Installation
