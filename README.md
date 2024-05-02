@@ -81,9 +81,9 @@ Navaigate to **finetune.sh** and replace the path for your dataset.
 python tinyllava/serve/app.py --host 0.0.0.0 --port 10000 --model-path "./output/TinyLLaVA-3.1B-lora" --model-name "BU-TinyLLaVA-3.1B-lora"
 ```
 
-
-
 Make sure model-path points to the finetuned model.bin
+
+If the above line does not work, make sure to change the path in tinyllava/server/app.py
 
 
 ## &#x270F; Reference
