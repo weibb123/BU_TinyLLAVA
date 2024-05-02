@@ -1,4 +1,4 @@
-![image](https://github.com/weibb123/BU_TinyLLava/assets/84426364/689467c4-e037-49c8-95f5-3fdc58976500)<h2 align="center"> <a href="https://arxiv.org/abs/2402.14289">TinyLLaVA: A Framework of Small-scale Large Multimodal Models</a>
+<h2 align="center"> <a href="https://arxiv.org/abs/2402.14289">TinyLLaVA: A Framework of Small-scale Large Multimodal Models</a>
 
 <h5 align="center">
 
