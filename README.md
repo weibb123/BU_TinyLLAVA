@@ -47,6 +47,28 @@ pip install -e .
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
+## &#x1F527; Dataset Format
+```
+[
+  {
+        "id": "1",
+        "image": "path/to/image.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nProvide a brief description of the given image."
+            },
+            {
+                "from": "gpt",
+                "value": "an apple fall from tree"
+            }
+        ]
+    }
+]
+```
+
+
+## &#x1F527; Transformers
 
 
 ## &#x270F; Reference
