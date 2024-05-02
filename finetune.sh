@@ -4,9 +4,9 @@ module load cuda
 conda activate tinyllava
 
 # Assign the arguments to variables
-DATA_PATH="/projectnb/ds598/students/weimai/TinyLLaVABench/Dataset/training_json/dataset.json"
-IMAGE_PATH="/projectnb/ds598/students/weimai/TinyLLaVABench/Dataset/training/Images"
-OUTPUT_DIR="/projectnb/ds598/students/weimai/TinyLLaVABench/TinyLLaVA-3.1B-lora"
+DATA_PATH=""
+IMAGE_PATH=""
+OUTPUT_DIR=""
 
 deepspeed --num_gpus=1 tinyllava/train/train.py \
     --deepspeed ./scripts/tiny_llava/zero3.json \
