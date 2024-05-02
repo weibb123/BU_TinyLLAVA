@@ -54,22 +54,11 @@ pip install -e .
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
-### Upgrade to the latest code base
-
-```Shell
-git pull
-pip install -e .
-
-# if you see some import errors when you upgrade, please try running the command below (without #)
-# pip install flash-attn --no-build-isolation --no-cache-dir
-```
 
 
+## &#x270F; Reference
 
-
-## &#x270F; Citation
-
-If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
+Check out author's work!
 
 ```BibTeX
 @misc{zhou2024tinyllava,
@@ -81,9 +70,4 @@ If you find our paper and code useful in your research, please consider giving a
       primaryClass={cs.LG}
 }
 ```
-
-
-## ❤️ Community efforts
-* Our codebase is built upon the [LLaVA](https://github.com/haotian-liu/LLaVA) project. Great work!
-* Our project uses data from the [ShareGPT4V](https://github.com/InternLM/InternLM-XComposer/tree/main/projects/ShareGPT4V) project. Great work!
 
