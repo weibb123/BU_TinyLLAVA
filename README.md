@@ -1,4 +1,4 @@
-<h2 align="center"> <a href="https://arxiv.org/abs/2402.14289">TinyLLaVA: A Framework of Small-scale Large Multimodal Models</a>
+![image](https://github.com/weibb123/BU_TinyLLava/assets/84426364/689467c4-e037-49c8-95f5-3fdc58976500)<h2 align="center"> <a href="https://arxiv.org/abs/2402.14289">TinyLLaVA: A Framework of Small-scale Large Multimodal Models</a>
 
 <h5 align="center">
 
@@ -74,6 +74,14 @@ Navaigate to **finetune.sh** and replace the path for your dataset.
 
 
 ## &#x1F527; Transformers
+
+## Launch Gradio Server
+
+```
+python tinyllava/serve/app.py --host 0.0.0.0 --port 10000 --model-path "./output/TinyLLaVA-3.1B-lora" --model-name "BU-TinyLLaVA-3.1B-lora"
+```
+
+Make sure model-path points to the finetuned model.bin
 
 
 ## &#x270F; Reference
