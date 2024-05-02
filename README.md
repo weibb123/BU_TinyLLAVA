@@ -26,6 +26,8 @@ make use of vision transformer to classify images to recognize BU image building
 
 ## &#x1F527; Requirements and Installation
 
+For training and localhosting: Make sure you have access to **GPU A6000** or **A100**
+
 We recommend the requirements as follows.
 
 1. Clone this repository and navigate to LLaVA folder
