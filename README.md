@@ -73,8 +73,6 @@ pip install flash-attn --no-build-isolation
 Navaigate to **finetune.sh** and replace the path for your dataset.
 
 
-
-
 ## &#x1F527; Transformers
 
 ## Launch Gradio Server
@@ -83,12 +81,17 @@ Navaigate to **finetune.sh** and replace the path for your dataset.
 python tinyllava/serve/app.py --host 0.0.0.0 --port 10000 --model-path "./output/TinyLLaVA-3.1B-lora" --model-name "BU-TinyLLaVA-3.1B-lora"
 ```
 
+
+
 Make sure model-path points to the finetuned model.bin
 
 
 ## &#x270F; Reference
 
+
 Check out author's work!
+
+https://github.com/DLCV-BUAA/TinyLLaVABench
 
 ```BibTeX
 @misc{zhou2024tinyllava,
