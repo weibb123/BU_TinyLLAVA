@@ -5,6 +5,9 @@
 
 ![image](https://github.com/weibb123/BU_TinyLLava/assets/84426364/587b7a11-1e20-4379-a122-b2f7cf249fe6)
 
+# DEMO on Gradio Server
+https://www.youtube.com/watch?v=Hl90tcNGGjY
+
 ## Overall 
 
 Engineered an AI-powered campus tour guide for Boston University by fine-tuning TinyLlava (small multimodal model) to deliver tailored, interactive experiences.
