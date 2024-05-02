@@ -66,6 +66,11 @@ pip install flash-attn --no-build-isolation
     }
 ]
 ```
+## &#x1F527; Finetuning
+
+Navaigate to **finetune.sh** and replace the path for your dataset.
+
+
 
 
 ## &#x1F527; Transformers
