@@ -8,7 +8,7 @@
 # DEMO on Gradio Server
 https://www.youtube.com/watch?v=Hl90tcNGGjY
 
-## Overall 
+## Brief Description
 
 Engineered an AI-powered campus tour guide for Boston University by fine-tuning TinyLlava (small multimodal model) to deliver tailored, interactive experiences.
 
