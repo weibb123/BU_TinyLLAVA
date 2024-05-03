@@ -81,6 +81,7 @@ Inside the image classification directory you will find two jupyter notebooks.
 
 If you want to try training yourself, make sure your file structure looks like:
 
+```
 image_classification/
 ├─ CNN.ipynb
 ├─ train/
@@ -90,6 +91,7 @@ image_classification/
 │  ├─ class3/
 ├─ test/
 ├─ valid/
+```
 
 For retraining the vision transformer, create a dataset repository on [Huggingface](https://hf.co/), and load_dataset('your_hf_user/dataset').
   
