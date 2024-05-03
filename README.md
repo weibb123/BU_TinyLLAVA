@@ -73,7 +73,26 @@ pip install flash-attn --no-build-isolation
 Navaigate to **finetune.sh** and replace the path for your dataset.
 
 
-## &#x1F527; Transformers
+## &#x1F527; Image Classification
+
+Inside the image classification directory you will find two jupyter notebooks.
+- image_classification/CNN.ipynb contains the different convolutional neural networks and transfer learning model architectures that we trained.
+- image_classification/vision_transformer.ipynb contains the setup and training for our fine tuned vision transformer for BU building classification.
+
+If you want to try training yourself, make sure your file structure looks like:
+
+image_classification/
+├─ CNN.ipynb
+├─ train/
+│  ├─ class1/
+│  │  ├─ picture.jpg
+│  ├─ class2/
+│  ├─ class3/
+├─ test/
+├─ valid/
+
+For retraining the vision transformer, create a dataset repository on [Huggingface](https://hf.co/), and load_dataset('your_hf_user/dataset').
+  
 
 ## Launch Gradio Server
 
